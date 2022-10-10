@@ -64,7 +64,7 @@ h1{font-size: 4.8rem;}
              text-align: center;
             margin: 400px;}   
 
-/*layour grids auto*/
+/*layour grids auto para el resto de las paginas, sin el index*/
 .gridsAuto  {display: grid;
              grid-template-rows: auto;}
 
