@@ -7,9 +7,10 @@
     <title>Black Dot Studio - Galería</title>
     <link rel="shorcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"
 </head>
 
-<body>
+<body class="container-fluid colorFondo">
     <div class="gridAuto">
        <!--header y nav-->
        <header class="bordes textos headerSticky">
@@ -25,7 +26,7 @@
       </header>
 
 
-       <main>
+       <main class="container-fluid colorFondo">
           <section class="textos">
             <!--tutulo centrado de la pagina-->
              <h1 class="textCenter">Galería</h1>
@@ -54,9 +55,9 @@
           </section>
        </main>
 
-       <article>
+       <article class="colorFondo">
           <!--article sobre otras bandas-->
-          <section class="containerArticle textos">
+          <section class="textos">
             <h2 class="subtituloGaleria textCenter">Bandas amigas grabadas en nuestro estudio</h2>
             
             <div class="logoBanda">
@@ -91,10 +92,13 @@
          
         </article>
 
-        <footer class="bordes textos"> <!--footer-->
+        <footer class="container-fluid bordes textos"> <!--footer-->
            <p>Todos los derechos reservados. 2022</p>
         </footer>
     </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -7,13 +7,14 @@
     <title>Black Dot Studio - Home</title>
     <link rel="shorcut icon" href="favicon.ico">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"
 </head>
 
 <body>
     <div class="gridIndex">
         <!--header y navegación superior-->
         <header class="bordes textos headerSticky">
-          <div>
+          <!--<div>
               <nav class="enlaces__nav">
                   <a class="enlaces__nav__a--bold" href="#">Home</a>
                   <a class="enlaces__nav__a" href="./paginas/elestudio.html">El Estudio</a>
@@ -21,7 +22,28 @@
                   <a class="enlaces__nav__a" href="./paginas/galeria.html">Galería</a>
                   <a class="enlaces__nav__a" href="./paginas/contacto.html">Contacto</a>
                </nav>
-             </div>
+             </div>-->
+
+             <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
 
 
@@ -41,6 +63,9 @@
            <p>Todos los derechos reservados. 2022</p>
         </footer>
     </div>   
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -5,15 +5,14 @@ html{font-size: 10px;}
 *{margin:0 ; padding:0; box-sizing: border-box;}
 
 /*Color de fondo*/
-body{background-color: black;
-     width:100vw;}
+.colorFondo{background-color: black;}
 
 /*index grid layout*/
 .gridIndex{ display: grid;
     grid-template-rows: auto 1fr auto;}
 
 /*encabezado y pie de pagina*/
-.bordes{ background-color: rgba(207, 42, 42, 0.906); text-align: center;}
+.bordes{background-color: rgba(207, 42, 42, 0.906); text-align: center;}
 
     .enlaces__nav{ font-size:2.5rem;
                    display:flex;
@@ -126,7 +125,7 @@ h1{font-size: 4.8rem;}
                   margin: 30px;
                   transition: transform 0.5s;}
 
-        .imgGaleria:hover{transform: scale(200%);}
+        .imgGaleria:hover{transform: scale(150%);}
         
 
 
@@ -189,7 +188,8 @@ h1{font-size: 4.8rem;}
                        font-size: 150%;}
 
 /*Display Celular*/                       
-@media screen and (max-width:768px) { .videosGaleria{flex-direction: column;
+@media screen and (max-width:768px) {
+                                        .videosGaleria{flex-direction: column;
                                                      align-items: center;
                                                      justify-content: space-evenly;}
                                                                                     
@@ -206,7 +206,11 @@ h1{font-size: 4.8rem;}
                                          .containerContactoInf{ flex-direction: column;
                                          justify-content: space-evenly;}
 
-                                         .boxContactoInf{width: 90%;} }
+                                         .boxContactoInf{width: 90%;} 
+                                        
+                                        .boxContacto{font-size: 120%;}
+
+                                        .logo{width:100%;}}
 
 /*Display tablet*/                       
 @media screen and (min-width:769px) and (max-width:1024px) { }
