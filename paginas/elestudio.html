@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estudio de grabación y salas de ensayo en Villa Devoto, CABA">
+    <meta name="keywords"  content="MUSICA, GRABACION, ESTUDIO, ENSAYO, SALA, INSTRUMENTOS">
     <title>Black Dot Studio - El Estudio</title>
     <link rel="shorcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 
-<body class="container-fluid colorFondo">
+<body class="colorFondo">
    <div class="gridAuto">
       <header class="bordes textos headerSticky">
          <!--header y nav superior-->
@@ -40,14 +42,23 @@
          </div>
       </header>
     
-      <main class="colorFondo">
+      <main class="mt-3 colorFondo">
          <section class="textos textCenter">
                <h1>El Estudio</h1>
-               <!--video ancho total pantalla-->
-               <iframe class="videoStudio" width="560" height="315" src="https://www.youtube.com/embed/CJ8P75imMas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+               <!--video-->
+
+               <!--<iframe class="videoStudio" width="560" height="315" src="https://www.youtube.com/embed/CJ8P75imMas?controls=0&showinfo=0&mute=1&loop=1&autoplay=1&playlist=CJ8P75imMas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>-->
+               
+            <div class="video-elestudio">
+               <video autoplay muted loop width="60%">
+                  <source src="../src/video/video sala.mp4" type="video/mp4">
+               </video>
+            </div>
+
          </section>
 
-         <section class="textBox textos"> <!--caja de texto descriptivo-->
+         <section class="textBox textos rounded"> <!--caja de texto descriptivo-->
             <div class="formatoTextBox">
                <p>El estudio cuenta con un cómodo control room con vistas al exterior y a las salas de grabación. Amplio espacio tanto para los técnicos, como para músicos y productores. Nuestro equipamiento permite la captura fiel y una excelente audición desde todos los ángulos gracias al diseño de esta parte del edificio. También contamos con una antesala, un bar, baños y demás servicios que permiten una estancia cómoda y relajada.</p>
                   <br>
@@ -56,7 +67,7 @@
          </section>
 
          <section class="containerBoxes"> <!-- contenedor - el estudio-->
-            <div class="textos boxElestudio"> <!--card/box 1 - el estudio-->
+            <div class="textos boxElestudio rounded"> <!--card/box 1 - el estudio-->
                <h2>Control Room</h2>
                  <img class="imgBox" src="../src/estudio16.jpg" alt="Foto de la sala de control del estudio" loading="lazy">
                     <br>
@@ -104,7 +115,7 @@
                       <h3>Aire acondicionado Hyundai Inverter 3000 frigorías frío/calor</h3></li>
              </div>
 
-            <div class="textos boxElestudio"> <!--card/box 2 - el estudio-->
+            <div class="textos boxElestudio rounded"> <!--card/box 2 - el estudio-->
                <h2>Sala 1</h2>
                   <img class="imgBox" src="../src/sala_1.jpg" alt="Foto panorámica de la sala de ensayo número 1" loading="lazy">
                    <br>
@@ -142,7 +153,7 @@
                            </ul>
             </div>
 
-            <div class="textos boxElestudio"> <!--card/box 3 - el estudio-->
+            <div class="textos boxElestudio rounded"> <!--card/box 3 - el estudio-->
                <h2>Sala 2</h2>
                   <img class="imgBox" src="../src/sala_2.jpg" alt="Foto panorámica de la sala de ensayo número 2" loading="lazy">
                    <br>

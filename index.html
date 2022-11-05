@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estudio de grabación y salas de ensayo en Villa Devoto, CABA">
+    <meta name="keywords"  content="MUSICA, GRABACION, ESTUDIO, ENSAYO, SALA, INSTRUMENTOS">
     <title>Black Dot Studio - Home</title>
     <link rel="shorcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./scss/estilos.css">
+    
 </head>
 
-<body>
+<body class="imagenFondo">
     <div class="gridIndex">
         <!--header y navegación superior-->
         <header class="bordes textos headerSticky">
-          <!--<div>
+          <!--Header viejo sin bootstrap
+            <div>
               <nav class="enlaces__nav">
                   <a class="enlaces__nav__a--bold" href="#">Home</a>
                   <a class="enlaces__nav__a" href="./paginas/elestudio.html">El Estudio</a>
@@ -43,9 +47,13 @@
 
 
          <main>
-           <section class="textos textCenter imagenFondo">
-              <h1>Black Dot Studios</h1>
-                  <div class="textoIndex">
+            <div class="logoBanda">
+               <img class="imgBanda" src="../proyecto_final/src/blackdotlogogrande.png" alt="Logo de Black dot studios y su caligrafía">
+            </div>
+
+
+           <section class="textos textCenter">
+                  <div class="container textoIndex rounded textBoxIndex">
                      <p>Audio recording studio</p>
                      <p>Post production - Mastering</p>
                      <p>Salas de Ensayo</p>
@@ -54,9 +62,9 @@
         </main>
 
         <!--footer-->
-        <footer class="bordes textos">
-           <p>Todos los derechos reservados. 2022</p>
-        </footer>
+        <footer class="container-fluid bordes textos sticky-bottom">
+            <p>Todos los derechos reservados. 2022</p>
+         </footer>
     </div>   
 
     <script src="./js/bootstrap.bundle.min.js"></script>
